@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="menu\Menu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_demo.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_draw.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_impl_dx9.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_impl_win32.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_tables.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\imgui\imgui_widgets.cpp">
+      <Filter>sdk\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes.hpp" />
+    <ClInclude Include="menu\Menu.hpp">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imconfig.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imgui.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imgui_impl_dx9.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imgui_impl_win32.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imgui_internal.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imstb_rectpack.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imstb_textedit.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\imgui\imstb_truetype.h">
+      <Filter>sdk\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{156d278c-156f-4ad3-ab79-1998d6bc78bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{6c23ad7a-eb8b-4436-827f-f29cae773c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\imgui">
+      <UniqueIdentifier>{7a0184b6-8542-43b3-9258-034e1ea834e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project> 
